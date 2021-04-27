@@ -10,4 +10,19 @@ public class SampleController {
     public String sample() {
         return "sample";
     }
+
+    @RequestMapping("/demo")
+    public String demo() {
+        return "demo";
+    }
+
+    @RequestMapping("/todo")
+    public String todo() {
+        return "todo";
+    }
+
+    @RequestMapping("/item")
+    public String item() {
+        return "item";
+    }
 }
